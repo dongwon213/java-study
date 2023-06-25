@@ -6,18 +6,18 @@ package chapter01;
 
 public class Ex02Literal {
 	
-	Public static void main(String[] args) {
-		Float f 3.14f;
-		double d = 3,14;
+	public static void main(String[] args) {
+		float  f = 3.14f;
+		double d = 3.14;
 		
 		short s =3;
 		int i = 1;
-		long 1 = 12345678901L;
+		long l = 12345678901L;
 		
 		char c = 'a';
 		byte a = 65;
 		
-		booolean bool = true;
+		boolean bool = true;
 		
 		
 		
@@ -27,7 +27,7 @@ public class Ex02Literal {
 		System.out.println(i);
 		System.out.println(l);
 		System.out.println(c);
-		System.out.println(b);
+		System.out.println(a);
 		System.out.println(bool);
 	}
 }
