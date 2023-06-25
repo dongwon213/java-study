@@ -10,11 +10,11 @@ public class Ex27Break {
 			if(sum > 5000) {
 				break;
 			}
-			wum = sum + i;
-			i = i + 1
+			sum = sum + i;
+			i = i + 1;
 		}
-		System.out.println(i)
-		System.out.println(sum)
+		System.out.println(i);
+		System.out.println(sum);
 
 	}
 
